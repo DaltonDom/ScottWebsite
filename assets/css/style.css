@@ -2315,7 +2315,7 @@ body.js-page-out .pointer {
 
 .dark-nav .menu-icon__close:before,
 .dark-nav .menu-icon__close:after {
-  background-color: #fff;
+  background-color: #000;
 }
 
 .menu-icon__close:after {
@@ -2457,12 +2457,12 @@ body.js-page-out .pointer {
 .header-social .midnightHeader.default i,
 .dark-nav.js-nav-active .header-social .midnightHeader.default i,
 .dark-nav.js-nav-active .header-social .midnightHeader.black i {
-  color: #000;
+  color: #fff;
 }
 
 .header-social .midnightHeader.black i,
 .js-nav-active .header-social .midnightHeader.default i {
-  color: #000;
+  color: #fff;
 }
 
 @media only screen and (max-width: 767px) and (orientation: landscape) {
@@ -2565,12 +2565,12 @@ body.js-page-out .pointer {
 .midnightHeader.default .header-contact__btn,
 .dark-nav.js-nav-active .midnightHeader.default .header-contact__btn,
 .dark-nav.js-nav-active .midnightHeader.black .header-contact__btn {
-  color: #000;
+  color: #fff;
 }
 
 .midnightHeader.black .header-contact__btn,
 .js-nav-active .midnightHeader.default .header-contact__btn {
-  color: #000;
+  color: #fff;
 }
 
 @media only screen and (max-width: 767px) and (orientation: landscape) {
@@ -3205,7 +3205,7 @@ body.js-page-out .pointer {
 .nav-btn__inner {
   position: relative;
   white-space: nowrap;
-  color: #000;
+  color: #fff;
 }
 
 .dark-nav .nav-btn__inner {
@@ -11691,7 +11691,7 @@ textarea.form-input {
 }
 
 .bg-overlay-black {
-  background-color: #fff;
+  /*background-color: #000;*/
 }
 
 .bg-overlay-white {
