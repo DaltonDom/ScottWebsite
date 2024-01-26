@@ -1,486 +1,762 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="author" content="Jinna Gik">
-		<meta name="description" content="UMAYA Template is a uniquely HTML5 template develop in HTML with a modern look.">
-		<meta name="keywords" content="creative, modern, clean, html5, css3, portfolio, blog, agency, templates, minimal">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Jinna Gik" />
+    <meta
+      name="description"
+      content="UMAYA Template is a uniquely HTML5 template develop in HTML with a modern look."
+    />
+    <meta
+      name="keywords"
+      content="creative, modern, clean, html5, css3, portfolio, blog, agency, templates, minimal"
+    />
 
-		<!-- favicon -->
-		<link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
-		<link rel="manifest" href="assets/images/favicon/site.webmanifest">
-		<link rel="mask-icon" href="assets/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
-		<meta name="msapplication-TileColor" content="#da532c">
-		<meta name="theme-color" content="#ffffff">
+    <!-- favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/images/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/images/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/images/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/images/favicon/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="assets/images/favicon/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
 
-		<title>TreeTop Media</title>
+    <title>TreeTop Media</title>
 
-		<!-- fonts -->
-		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
 
-		<!-- styles -->
-		<link href="assets/css/plugins.css" rel="stylesheet" type="text/css">
-		<link href="assets/css/style.css" rel="stylesheet" type="text/css">
-	</head>
-	<body class="preloader cursor-anim-enable dark-nav">
-		<!-- preloader-loading start -->
-		<div class="preloader__logoload-box">
-			<img class="preloader__logo vertical" src="assets/images/logo/logo-white-vertical.png" alt="logo">
-			<div class="preloader__pulse"></div>
-		</div><!-- preloader-loading end -->
+    <!-- styles -->
+    <link href="assets/css/plugins.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body class="preloader cursor-anim-enable dark-nav">
+    <!-- preloader-loading start -->
+    <div class="preloader__logoload-box">
+      <img
+        class="preloader__logo vertical"
+        src="assets/images/logo/logo-white-vertical.png"
+        alt="logo"
+      />
+      <div class="preloader__pulse"></div>
+    </div>
+    <!-- preloader-loading end -->
 
-		<!-- pointer start -->
-		<div class="pointer js-pointer" id="js-pointer">
-			<i class="pointer__inner fas fa-long-arrow-alt-right"></i>
-			<i class="pointer__inner fas fa-search"></i>
-			<i class="pointer__inner fas fa-link"></i>
-		</div><!-- pointer end -->
+    <!-- pointer start -->
+    <div class="pointer js-pointer" id="js-pointer">
+      <i class="pointer__inner fas fa-long-arrow-alt-right"></i>
+      <i class="pointer__inner fas fa-search"></i>
+      <i class="pointer__inner fas fa-link"></i>
+    </div>
+    <!-- pointer end -->
 
-		<!-- to top btn start -->
-		<a href="#up" class="scroll-to-btn js-headroom js-midnight-color js-smooth-scroll js-pointer-large">
-			<span class="scroll-to-btn__box">
-				<span class="scroll-to-btn__arrow"></span>
-			</span>
-		</a><!-- to top btn end -->
+    <!-- to top btn start -->
+    <a
+      href="#up"
+      class="scroll-to-btn js-headroom js-midnight-color js-smooth-scroll js-pointer-large"
+    >
+      <span class="scroll-to-btn__box">
+        <span class="scroll-to-btn__arrow"></span>
+      </span> </a
+    ><!-- to top btn end -->
 
-		<!-- scroll down btn start -->
-		<a href="#down" class="scroll-to-btn to-down js-headroom js-midnight-color js-smooth-scroll js-pointer-large js-scroll-btn">
-			<span class="scroll-to-btn__box">
-				<span class="scroll-to-btn__arrow"></span>
-			</span>
-		</a><!-- scroll down btn end -->
+    <!-- scroll down btn start -->
+    <a
+      href="#down"
+      class="scroll-to-btn to-down js-headroom js-midnight-color js-smooth-scroll js-pointer-large js-scroll-btn"
+    >
+      <span class="scroll-to-btn__box">
+        <span class="scroll-to-btn__arrow"></span>
+      </span> </a
+    ><!-- scroll down btn end -->
 
-		<!-- header start -->
-		<header class="fixed-header">
-			<!-- logo start -->
-			<div class="header-logo vertical js-midnight-color js-headroom">
-				<div class="hidden-box">
-					<a href="index.html" class="header-logo__box js-pointer-large js-animsition-link">
-						<img class="header-logo__img white" src="assets/images/logo/logo-white.png" width="50" height="400" alt="logo">
-					</a>
-				</div>
-			</div><!-- logo end -->
+    <!-- header start -->
+    <header class="fixed-header">
+      <!-- logo start -->
+      <div class="header-logo vertical js-midnight-color js-headroom">
+        <div class="hidden-box">
+          <a
+            href="index.html"
+            class="header-logo__box js-pointer-large js-animsition-link"
+          >
+            <img
+              class="header-logo__img white"
+              src="assets/images/logo/WebsiteBanner.png"
+              width="50"
+              height="400"
+              alt="logo"
+            />
+          </a>
+        </div>
+      </div>
+      <!-- logo end -->
 
-			<!-- menu-icon start -->
-			<div class="menu-icon vertical js-menu-open-close js-pointer-large js-midnight-color js-headroom">
-				<div class="menu-icon__box">
-					<span class="menu-icon__inner"></span>
-					<span class="menu-icon__close"></span>
-				</div>
-			</div><!-- menu-icon end -->
+      <!-- menu-icon start -->
+      <div
+        class="menu-icon vertical js-menu-open-close js-pointer-large js-midnight-color js-headroom"
+      >
+        <div class="menu-icon__box">
+          <span class="menu-icon__inner"></span>
+          <span class="menu-icon__close"></span>
+        </div>
+      </div>
+      <!-- menu-icon end -->
 
-			<!-- header-contact start -->
-			<div class="header-contact js-midnight-color js-headroom">
-				<div class="header-contact__flex">
-					<div class="header-contact__anim">
-						<a href="#" class="header-contact__btn vertical-text center js-pointer-large">
-							<span class="vertical-text__inner"><i class="far fa-comment-dots"></i> Get in touch</span>
-						</a>
-					</div>
-				</div>
-			</div><!-- header-contact end -->
+      <!-- header-contact start -->
+      <div class="header-contact js-midnight-color js-headroom">
+        <div class="header-contact__flex">
+          <div class="header-contact__anim">
+            <a
+              href="#"
+              class="header-contact__btn vertical-text center js-pointer-large"
+            >
+              <span class="vertical-text__inner"
+                ><i class="far fa-comment-dots"></i> Get in touch</span
+              >
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- header-contact end -->
 
-			<!-- header-social start -->
-			<div class="header-social after-preloader-anim js-midnight-color js-headroom">
-				<ul class="list list_center list_margin-20px hidden-box">
-					<li class="list__item">
-						<div class="hidden-box d-inline-block">
-							<a href="https://www.facebook.com/TreeTop-Media-LLC-103860821824061" class="anim-slide js-pointer-small">
-								<i class="fab fa-facebook-f"></i>
-							</a>
-						</div>
-					</li>
-					<li class="list__item">
-						<div class="hidden-box d-inline-block">
-							<a href="https://www.instagram.com/treetop_media/" class="anim-slide tr-delay-04 js-pointer-small">
-								<i class="fab fa-instagram"></i>
-							</a>
-						</div>
-					</li>
-				</ul>
-			</div><!-- header-social end -->
-		</header><!-- header end -->
+      <!-- header-social start -->
+      <div
+        class="header-social after-preloader-anim js-midnight-color js-headroom"
+      >
+        <ul class="list list_center list_margin-20px hidden-box">
+          <li class="list__item">
+            <div class="hidden-box d-inline-block">
+              <a
+                href="https://www.facebook.com/TreeTop-Media-LLC-103860821824061"
+                class="anim-slide js-pointer-small"
+              >
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </div>
+          </li>
+          <li class="list__item">
+            <div class="hidden-box d-inline-block">
+              <a
+                href="https://www.instagram.com/treetop_media/"
+                class="anim-slide tr-delay-04 js-pointer-small"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <!-- header-social end -->
+    </header>
+    <!-- header end -->
 
-		<!-- navigation start -->
-		<nav class="nav-container pos-rel js-dropdown-active-box">
-			<!-- pos-rel start -->
-			<div class="pos-rel height-100perc">
-				<!-- dropdown close btn start -->
-				<div class="dropdown-close">
-					<div class="dropdown-close__inner js-dropdown-close js-pointer-large">
-						<span class="dropdown-close__arrow"></span>
-					</div>
-				</div><!-- dropdown close btn end -->
+    <!-- navigation start -->
+    <nav class="nav-container pos-rel js-dropdown-active-box">
+      <!-- pos-rel start -->
+      <div class="pos-rel height-100perc">
+        <!-- dropdown close btn start -->
+        <div class="dropdown-close">
+          <div class="dropdown-close__inner js-dropdown-close js-pointer-large">
+            <span class="dropdown-close__arrow"></span>
+          </div>
+        </div>
+        <!-- dropdown close btn end -->
 
-				<!-- js-nav-slider-bg start -->
-				<div class="js-nav-slider-bg">
-					<!-- swiper-wrapper start -->
-					<div class="swiper-wrapper">
-						<!-- swiper-slide start -->
-						<div class="swiper-slide">
-							<div class="nav-slide-bg" style="background-image:url(assets/images/projects/speakers/revolt-BMest61rcqs-unsplash.jpg)"></div>
-							<div class="bg-overlay-black"></div>
-						</div><!-- swiper-slide end -->
-						<!-- swiper-slide start -->
-						<div class="swiper-slide">
-							<div class="nav-slide-bg" style="background-image:url(assets/images/projects/sneakers/revolt-164_6wVEHfI-unsplash.jpg)"></div>
-							<div class="bg-overlay-black"></div>
-						</div><!-- swiper-slide end -->
-						<!-- swiper-slide start -->
-						<div class="swiper-slide">
-							<div class="nav-slide-bg" style="background-image:url(assets/images/projects/black-bike/josh-nuttall-pIwu5XNvXpk-unsplash.jpg)"></div>
-							<div class="bg-overlay-black"></div>
-						</div><!-- swiper-slide end -->
-						<!-- swiper-slide start -->
-						<div class="swiper-slide">
-							<div class="nav-slide-bg" style="background-image:url(assets/images/projects/pexels/woman-in-black-sexy-top-2825034.jpg)"></div>
-							<div class="bg-overlay-black"></div>
-						</div><!-- swiper-slide end -->
-						<!-- swiper-slide start -->
-						<div class="swiper-slide">
-							<div class="nav-slide-bg" style="background-image:url(assets/images/projects/furniture/goashape-RvyJGaoaWrs-unsplash.jpg)"></div>
-							<div class="bg-overlay-black"></div>
-						</div><!-- swiper-slide end -->
-					</div><!-- swiper-wrapper end -->
-				</div><!-- js-nav-slider-bg end -->
+        <!-- js-nav-slider-bg start -->
+        <div class="js-nav-slider-bg">
+          <!-- swiper-wrapper start -->
+          <div class="swiper-wrapper">
+            <!-- swiper-slide start -->
+            <div class="swiper-slide">
+              <div
+                class="nav-slide-bg"
+                style="
+                  background-image: url(assets/images/projects/speakers/revolt-BMest61rcqs-unsplash.jpg);
+                "
+              ></div>
+              <div class="bg-overlay-black"></div>
+            </div>
+            <!-- swiper-slide end -->
+            <!-- swiper-slide start -->
+            <div class="swiper-slide">
+              <div
+                class="nav-slide-bg"
+                style="
+                  background-image: url(assets/images/projects/sneakers/revolt-164_6wVEHfI-unsplash.jpg);
+                "
+              ></div>
+              <div class="bg-overlay-black"></div>
+            </div>
+            <!-- swiper-slide end -->
+            <!-- swiper-slide start -->
+            <div class="swiper-slide">
+              <div
+                class="nav-slide-bg"
+                style="
+                  background-image: url(assets/images/projects/black-bike/josh-nuttall-pIwu5XNvXpk-unsplash.jpg);
+                "
+              ></div>
+              <div class="bg-overlay-black"></div>
+            </div>
+            <!-- swiper-slide end -->
+            <!-- swiper-slide start -->
+            <div class="swiper-slide">
+              <div
+                class="nav-slide-bg"
+                style="
+                  background-image: url(assets/images/projects/pexels/woman-in-black-sexy-top-2825034.jpg);
+                "
+              ></div>
+              <div class="bg-overlay-black"></div>
+            </div>
+            <!-- swiper-slide end -->
+            <!-- swiper-slide start -->
+            <div class="swiper-slide">
+              <div
+                class="nav-slide-bg"
+                style="
+                  background-image: url(assets/images/projects/furniture/goashape-RvyJGaoaWrs-unsplash.jpg);
+                "
+              ></div>
+              <div class="bg-overlay-black"></div>
+            </div>
+            <!-- swiper-slide end -->
+          </div>
+          <!-- swiper-wrapper end -->
+        </div>
+        <!-- js-nav-slider-bg end -->
 
-				<!-- menu-box start -->
-				<ul class="menu-box">
-					<!-- nav-btn-box start -->
-					<li class="nav-btn-box js-dropdown-open">
-						<a href="homePage.html" class="nav-btn large dropdown-hidden-btn js-pointer-large">
-							<span class="nav-btn__inner" data-text="Home">Home</span>
-						</a>
+        <!-- menu-box start -->
+        <ul class="menu-box">
+          <!-- nav-btn-box start -->
+          <li class="nav-btn-box js-dropdown-open">
+            <a
+              href="homePage.html"
+              class="nav-btn large dropdown-hidden-btn js-pointer-large"
+            >
+              <span class="nav-btn__inner" data-text="Home">Home</span>
+            </a>
+          </li>
+          <!-- nav-btn-box end -->
 
-					</li><!-- nav-btn-box end -->
+          <!-- nav-btn-box start -->
+          <li class="nav-btn-box js-dropdown-open">
+            <a
+              href="aboutUs.html"
+              class="nav-btn large dropdown-hidden-btn js-pointer-large"
+            >
+              <span class="nav-btn__inner" data-text="About Us">About Us</span>
+            </a>
+          </li>
+          <!-- nav-btn-box end -->
+          <!-- nav-btn-box start -->
+          <li class="nav-btn-box js-dropdown-open">
+            <a
+              href="processPage.html"
+              class="nav-btn large dropdown-hidden-btn js-pointer-large"
+            >
+              <span class="nav-btn__inner" data-text="Process">Process</span>
+            </a>
+          </li>
+          <!-- nav-btn-box end -->
 
-					<!-- nav-btn-box start -->
-					<li class="nav-btn-box js-dropdown-open">
-						<a href="aboutUs.html" class="nav-btn large dropdown-hidden-btn js-pointer-large">
-							<span class="nav-btn__inner" data-text="About Us">About Us</span>
-						</a>
-					</li><!-- nav-btn-box end -->
-					<!-- nav-btn-box start -->
-					<li class="nav-btn-box js-dropdown-open">
-						<a href="processPage.html" class="nav-btn large dropdown-hidden-btn js-pointer-large">
-							<span class="nav-btn__inner" data-text="Process">Process</span>
-						</a>
-					</li><!-- nav-btn-box end -->
+          <!-- nav-btn-box start -->
+          <li class="nav-btn-box js-dropdown-open">
+            <a
+              href="portfolioPage.html"
+              class="nav-btn large dropdown-hidden-btn js-pointer-large"
+            >
+              <span class="nav-btn__inner" data-text="Portfolio"
+                >Portfolio</span
+              >
+            </a>
+          </li>
+          <!-- nav-btn-box end -->
+          <!-- nav-btn-box start -->
+          <li class="nav-btn-box">
+            <a
+              href="contactUs.html"
+              class="nav-btn large dropdown-hidden-btn js-animsition-link js-pointer-large"
+            >
+              <span class="nav-btn__inner" data-text="Contact Us"
+                >Contact Us</span
+              >
+            </a>
+          </li>
+          <!-- nav-btn-box end -->
+        </ul>
+        <!-- menu-box end -->
 
-					<!-- nav-btn-box start -->
-					<li class="nav-btn-box js-dropdown-open">
-						<a href="portfolioPage.html" class="nav-btn large dropdown-hidden-btn js-pointer-large">
-							<span class="nav-btn__inner" data-text="Portfolio">Portfolio</span>
-						</a>
-					</li><!-- nav-btn-box end -->
-					<!-- nav-btn-box start -->
-					<li class="nav-btn-box">
-						<a href="contactUs.html" class="nav-btn large dropdown-hidden-btn js-animsition-link js-pointer-large">
-							<span class="nav-btn__inner" data-text="Contact Us">Contact Us</span>
-						</a>
-					</li><!-- nav-btn-box end -->
-				</ul><!-- menu-box end -->
+        <!-- nav-information start -->
+        <div class="nav-information">
+          <!-- nav-email start -->
+          <div>
+            <div class="hidden-box d-inline-block">
+              <div
+                class="headline-xxxxs nav-title-color nav-reveal-anim js-nav-anim"
+              >
+                Email
+              </div>
+            </div>
+            <div class="nav-fade-anim js-nav-anim margin-top-10">
+              <a
+                href="#"
+                class="subhead-xxs nav-text-color text-hover-to-red js-pointer-small"
+                >scott@treetopmedia.net</a
+              ><br />
+              <a
+                href="#"
+                class="subhead-xxs nav-text-color text-hover-to-red js-pointer-small"
+              ></a>
+            </div>
+          </div>
+          <!-- nav-email end -->
 
-				<!-- nav-information start -->
-				<div class="nav-information">
-					<!-- nav-email start -->
-					<div>
-						<div class="hidden-box d-inline-block">
-							<div class="headline-xxxxs nav-title-color nav-reveal-anim js-nav-anim">Email</div>
-						</div>
-						<div class="nav-fade-anim js-nav-anim margin-top-10">
-							<a href="#" class="subhead-xxs nav-text-color text-hover-to-red js-pointer-small">scott@treetopmedia.net</a><br>
-							<a href="#" class="subhead-xxs nav-text-color text-hover-to-red js-pointer-small"></a>
-						</div>
-					</div><!-- nav-email end -->
+          <!-- nav-address start -->
+          <div>
+            <div class="hidden-box d-inline-block">
+              <div
+                class="headline-xxxxs nav-title-color nav-reveal-anim js-nav-anim"
+              >
+                Phone
+              </div>
+            </div>
+            <div class="nav-fade-anim js-nav-anim margin-top-10">
+              <a
+                href="#"
+                class="subhead-xxs nav-text-color text-hover-to-red js-pointer-small"
+              >
+                +1 651-895-9763<br />
+              </a>
+            </div>
+          </div>
+          <!-- nav-address end -->
 
-					<!-- nav-address start -->
-					<div>
-						<div class="hidden-box d-inline-block">
-							<div class="headline-xxxxs nav-title-color nav-reveal-anim js-nav-anim">Phone</div>
-						</div>
-						<div class="nav-fade-anim js-nav-anim margin-top-10">
-							<a href="#" class="subhead-xxs nav-text-color text-hover-to-red js-pointer-small">
-								+1 651-895-9763<br>
-							</a>
-						</div>
-					</div><!-- nav-address end -->
+          <!-- nav-phone start -->
+          <div>
+            <div class="hidden-box d-inline-block">
+              <div
+                class="headline-xxxxs nav-title-color nav-reveal-anim js-nav-anim"
+              ></div>
+            </div>
+            <div class="nav-fade-anim js-nav-anim margin-top-10">
+              <a
+                href="#"
+                class="subhead-xxs nav-text-color text-hover-to-red js-pointer-small"
+              ></a
+              ><br />
+              <a
+                href="#"
+                class="subhead-xxs nav-text-color text-hover-to-red js-pointer-small"
+              ></a>
+            </div>
+          </div>
+          <!-- nav-phone end -->
+        </div>
+        <!-- nav-information end -->
+      </div>
+      <!-- pos-rel end -->
+    </nav>
+    <!-- navigation end -->
 
-					<!-- nav-phone start -->
-					<div>
-						<div class="hidden-box d-inline-block">
-							<div class="headline-xxxxs nav-title-color nav-reveal-anim js-nav-anim"></div>
-						</div>
-						<div class="nav-fade-anim js-nav-anim margin-top-10">
-							<a href="#" class="subhead-xxs nav-text-color text-hover-to-red js-pointer-small"></a><br>
-							<a href="#" class="subhead-xxs nav-text-color text-hover-to-red js-pointer-small"></a>
-						</div>
-					</div><!-- nav-phone end -->
-				</div><!-- nav-information end -->
-			</div><!-- pos-rel end -->
-		</nav><!-- navigation end -->
+    <!-- main start -->
+    <main class="js-animsition-overlay" data-animsition-overlay="true">
+      <!-- pricing start -->
+      <section class="pos-rel section-bg-dark-1">
+        <!-- pos-rel start -->
+        <div class="pos-rel padding-top-bottom-120">
+          <!-- title start -->
+          <h2 class="headline-xxl text-center js-scrollanim">
+            <span class="anim-text-double-fill invert" data-text="Our"
+              >Our</span
+            >
+            <span class="anim-text-double-fill tr-delay-02" data-text="Pricing"
+              >Pricing</span
+            >
+          </h2>
+          <!-- title end -->
 
-		<!-- main start -->
-		<main class="js-animsition-overlay" data-animsition-overlay="true">
+          <!-- container start -->
+          <div class="container small padding-top-30">
+            <!-- price start -->
+            <div class="padding-top-60">
+              <div
+                class="flex-container border-box border-radius-10px hidden-box"
+              >
+                <div
+                  class="three-columns content-bg-red d-flex flex-center-center"
+                >
+                  <div class="text-center padding-top-bottom-50">
+                    <h3 class="subhead-s">Corporate full-day</h3>
+                    <h4 class="margin-top-10">
+                      <span class="headline-l d-block">$1,200</span>
+                      <span class="subhead-xs d-block">5-10 hour day</span>
+                    </h4>
+                  </div>
+                </div>
+                <div class="six-columns d-flex flex-align-center">
+                  <div class="width-100perc padding-top-bottom-50">
+                    <!-- list start -->
+                    <ul
+                      class="list list_center subhead-xxs text-color-b0b0b0 margin-left-right-20"
+                    >
+                      <li class="list__item check red">A & B Camera</li>
+                      <li class="list__item check red">Lighting Kit</li>
+                      <li class="list__item check red">Drone Kit</li>
+                      <li class="list__item check red">Audio Kit</li>
+                      <li class="list__item x opacity-05">Post-Production</li>
+                    </ul>
+                    <!-- list end -->
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- price end -->
 
-			<!-- pricing start -->
-			<section class="pos-rel section-bg-dark-1">
-				<!-- pos-rel start -->
-				<div class="pos-rel padding-top-bottom-120">
-					<!-- title start -->
-					<h2 class="headline-xxl text-center js-scrollanim">
-						<span class="anim-text-double-fill invert" data-text="Our">Our</span>
-						<span class="anim-text-double-fill tr-delay-02" data-text="Pricing">Pricing</span>
-					</h2><!-- title end -->
+            <!-- price start -->
+            <div class="padding-top-60">
+              <div
+                class="flex-container border-box border-radius-10px-white hidden-box"
+              >
+                <div
+                  class="three-columns content-bg-red d-flex flex-center-center"
+                >
+                  <div class="text-center padding-top-bottom-50">
+                    <h3 class="subhead-s">Corporate half-day</h3>
+                    <h4 class="margin-top-10">
+                      <span class="headline-l d-block">$800</span>
+                      <span class="subhead-xs d-block">0-5 hour day</span>
+                    </h4>
+                  </div>
+                </div>
+                <div class="six-columns d-flex flex-align-center">
+                  <div class="width-100perc padding-top-bottom-50">
+                    <!-- list start -->
+                    <ul
+                      class="list list_center subhead-xxs text-color-b0b0b0 margin-left-right-20"
+                    >
+                      <li class="list__item check red">A & B Camera</li>
+                      <li class="list__item check red">Lighting Kit</li>
+                      <li class="list__item check red">Drone Kit</li>
+                      <li class="list__item check red">Audio Kit</li>
+                      <li class="list__item x opacity-05">Post-Production</li>
+                    </ul>
+                    <!-- list end -->
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- price end -->
 
-					<!-- container start -->
-					<div class="container small padding-top-30">
-						<!-- price start -->
-						<div class="padding-top-60">
-							<div class="flex-container border-box border-radius-10px hidden-box">
-								<div class="three-columns content-bg-red d-flex flex-center-center">
-									<div class="text-center padding-top-bottom-50">
-										<h3 class="subhead-s">Corporate full-day</h3>
-										<h4 class="margin-top-10">
-											<span class="headline-l d-block">$1,200</span>
-											<span class="subhead-xs d-block">5-10 hour day</span>
-										</h4>
-									</div>
-								</div>
-								<div class="six-columns d-flex flex-align-center">
-									<div class="width-100perc padding-top-bottom-50">
-										<!-- list start -->
-										<ul class="list list_center subhead-xxs text-color-b0b0b0 margin-left-right-20">
-											<li class="list__item check red">A & B Camera</li>
-											<li class="list__item check red">Lighting Kit</li>
-											<li class="list__item check red">Drone Kit</li>
-											<li class="list__item check red">Audio Kit</li>
-											<li class="list__item x opacity-05">Post-Production</li>
-										</ul><!-- list end -->
-									</div>
-								</div>
-							</div>
-						</div><!-- price end -->
+            <!-- price start -->
+            <div class="padding-top-60">
+              <div
+                class="flex-container border-box border-radius-10px hidden-box"
+              >
+                <div
+                  class="three-columns content-bg-red d-flex flex-center-center"
+                >
+                  <div class="text-center padding-top-bottom-50">
+                    <h3 class="subhead-s">Nonprofit full-day</h3>
+                    <h4 class="margin-top-10">
+                      <span class="headline-l d-block">$1080</span>
+                      <span class="subhead-xs d-block">5-10 hour day</span>
+                    </h4>
+                  </div>
+                </div>
+                <div class="six-columns d-flex flex-align-center">
+                  <div class="width-100perc padding-top-bottom-50">
+                    <!-- list start -->
+                    <ul
+                      class="list list_center subhead-xxs text-color-b0b0b0 margin-left-right-20"
+                    >
+                      <li class="list__item check red">A & B Camera</li>
+                      <li class="list__item check red">Lighting Kit</li>
+                      <li class="list__item check red">Drone Kit</li>
+                      <li class="list__item check red">Audio Kit</li>
+                      <li class="list__item x opacity-05">Post-Production</li>
+                    </ul>
+                    <!-- list end -->
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- price end -->
 
-						<!-- price start -->
-						<div class="padding-top-60">
-							<div class="flex-container border-box border-radius-10px-white hidden-box">
-								<div class="three-columns content-bg-red d-flex flex-center-center">
-									<div class="text-center padding-top-bottom-50">
-										<h3 class="subhead-s">Corporate half-day</h3>
-										<h4 class="margin-top-10">
-											<span class="headline-l d-block">$800</span>
-											<span class="subhead-xs d-block">0-5 hour day</span>
-										</h4>
-									</div>
-								</div>
-								<div class="six-columns d-flex flex-align-center">
-									<div class="width-100perc padding-top-bottom-50">
-										<!-- list start -->
-										<ul class="list list_center subhead-xxs text-color-b0b0b0 margin-left-right-20">
-											<li class="list__item check red">A & B Camera</li>
-											<li class="list__item check red">Lighting Kit</li>
-											<li class="list__item check red">Drone Kit</li>
-											<li class="list__item check red">Audio Kit</li>
-											<li class="list__item x opacity-05">Post-Production</li>
-										</ul><!-- list end -->
-									</div>
-								</div>
-							</div>
-						</div><!-- price end -->
+            <!-- price start -->
+            <div class="padding-top-60">
+              <div
+                class="flex-container border-box border-radius-10px hidden-box"
+              >
+                <div
+                  class="three-columns content-bg-red d-flex flex-center-center"
+                >
+                  <div class="text-center padding-top-bottom-50">
+                    <h3 class="subhead-s">Nonprofit half-day</h3>
+                    <h4 class="margin-top-10">
+                      <span class="headline-l d-block">$720</span>
+                      <span class="subhead-xs d-block">0-5 hour day</span>
+                    </h4>
+                  </div>
+                </div>
+                <div class="six-columns d-flex flex-align-center">
+                  <div class="width-100perc padding-top-bottom-50">
+                    <!-- list start -->
+                    <ul
+                      class="list list_center subhead-xxs text-color-b0b0b0 margin-left-right-20"
+                    >
+                      <li class="list__item check red">A & B Camera</li>
+                      <li class="list__item check red">Lighting Kit</li>
+                      <li class="list__item check red">Drone Kit</li>
+                      <li class="list__item check red">Audio Kit</li>
+                      <li class="list__item x opacity-05">Post-Production</li>
+                    </ul>
+                    <!-- list end -->
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- price end -->
 
-						<!-- price start -->
-						<div class="padding-top-60">
-							<div class="flex-container border-box border-radius-10px hidden-box">
-								<div class="three-columns content-bg-red d-flex flex-center-center">
-									<div class="text-center padding-top-bottom-50">
-										<h3 class="subhead-s">Nonprofit full-day</h3>
-										<h4 class="margin-top-10">
-											<span class="headline-l d-block">$1080</span>
-											<span class="subhead-xs d-block">5-10 hour day</span>
-										</h4>
-									</div>
-								</div>
-								<div class="six-columns d-flex flex-align-center">
-									<div class="width-100perc padding-top-bottom-50">
-										<!-- list start -->
-										<ul class="list list_center subhead-xxs text-color-b0b0b0 margin-left-right-20">
-											<li class="list__item check red">A & B Camera</li>
-											<li class="list__item check red">Lighting Kit</li>
-											<li class="list__item check red">Drone Kit</li>
-											<li class="list__item check red">Audio Kit</li>
-											<li class="list__item x opacity-05">Post-Production</li>
-										</ul><!-- list end -->
-									</div>
-								</div>
-							</div>
-						</div><!-- price end -->
+            <!-- price start -->
+            <div class="padding-top-60">
+              <div
+                class="flex-container border-box border-radius-10px hidden-box"
+              >
+                <div
+                  class="three-columns content-bg-red d-flex flex-center-center"
+                >
+                  <div class="text-center padding-top-bottom-50">
+                    <h3 class="subhead-s">Post-Production</h3>
+                    <h4 class="margin-top-10">
+                      <span class="headline-l d-block">$85/hr</span>
+                      <span class="subhead-xs d-block"></span>
+                    </h4>
+                  </div>
+                </div>
+                <div class="six-columns d-flex flex-align-center">
+                  <div class="width-100perc padding-top-bottom-50">
+                    <!-- list start -->
+                    <ul
+                      class="list list_center subhead-xxs text-color-b0b0b0 margin-left-right-20"
+                    >
+                      <li class="list__item check red">Asset Management</li>
+                      <li class="list__item check red">Initial Cut</li>
+                      <li class="list__item check red">Sound Design</li>
+                      <li class="list__item check red">Motion Graphics</li>
+                      <li class="list__item check red">Color Correction</li>
+                    </ul>
+                    <!-- list end -->
+                  </div>
+                </div>
+                <div class="three-columns d-flex flex-center-center">
+                  <div class="price-btn-offset text-center">
+                    <a href="#" class="skew-btn js-pointer-large"> </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- price end -->
+          </div>
+          <!-- container end -->
+        </div>
+        <!-- pos-rel end -->
+      </section>
+      <!-- pricing end -->
+    </main>
+    <!-- main end -->
 
-						<!-- price start -->
-						<div class="padding-top-60">
-							<div class="flex-container border-box border-radius-10px hidden-box">
-								<div class="three-columns content-bg-red d-flex flex-center-center">
-									<div class="text-center padding-top-bottom-50">
-										<h3 class="subhead-s">Nonprofit half-day</h3>
-										<h4 class="margin-top-10">
-											<span class="headline-l d-block">$720</span>
-											<span class="subhead-xs d-block">0-5 hour day</span>
-										</h4>
-									</div>
-								</div>
-								<div class="six-columns d-flex flex-align-center">
-									<div class="width-100perc padding-top-bottom-50">
-										<!-- list start -->
-										<ul class="list list_center subhead-xxs text-color-b0b0b0 margin-left-right-20">
-											<li class="list__item check red">A & B Camera</li>
-											<li class="list__item check red">Lighting Kit</li>
-											<li class="list__item check red">Drone Kit</li>
-											<li class="list__item check red">Audio Kit</li>
-											<li class="list__item x opacity-05">Post-Production</li>
-										</ul><!-- list end -->
-									</div>
-								</div>
-							</div>
-						</div><!-- price end -->
+    <!-- footer start -->
+    <footer
+      class="fixed-footer pos-rel bg-img-cover js-fixed-footer"
+      style="
+        background-image: url(assets/images/backgrounds/man-holding-videocamera-standing-in-studio-3379943.jpg);
+      "
+    >
+      <!-- bg-overlay -->
+      <div class="bg-overlay-black"></div>
+      <!-- pos-rel start -->
+      <div class="pos-rel flex-min-height-100vh">
+        <!-- container start -->
+        <div class="container padding-top-bottom-120">
+          <!-- footer-logo start -->
+          <div class="footer-logo footer-logo-desktop-hidden padding-bottom-90">
+            <img
+              class="footer-logo__img"
+              src="assets/images/logo/logo-white.png"
+              alt="logo"
+            />
+          </div>
+          <!-- footer-logo end -->
 
+          <!-- flex-container start -->
+          <div class="flex-container flex-align-center">
+            <!-- column start -->
+            <div class="eight-columns"></div>
+            <!-- column end -->
+            <!-- column start -->
+            <div class="four-columns footer-nav-mobile-padding">
+              <ul
+                class="column-l-r-margin-10 footer-nav-list js-footer-hover-box"
+              >
+                <li>
+                  <a
+                    href="homePage.html"
+                    class="footer-nav__btn js-pointer-small js-footer-hover-link"
+                    >Home</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="aboutUs.html"
+                    class="footer-nav__btn js-pointer-small js-footer-hover-link"
+                    >About Us</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="processPage.html"
+                    class="footer-nav__btn js-pointer-small js-footer-hover-link"
+                    >Process</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="portfolioPage.html"
+                    class="footer-nav__btn js-pointer-small js-footer-hover-link"
+                    >Portfolio</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="contactUs.html"
+                    class="footer-nav__btn js-pointer-small js-footer-hover-link"
+                    >Contact Us</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <!-- column end -->
+          </div>
+          <!-- flex-container end -->
 
-						<!-- price start -->
-						<div class="padding-top-60">
-							<div class="flex-container border-box border-radius-10px hidden-box">
-								<div class="three-columns content-bg-red d-flex flex-center-center">
-									<div class="text-center padding-top-bottom-50">
-										<h3 class="subhead-s">Post-Production</h3>
-										<h4 class="margin-top-10">
-											<span class="headline-l d-block">$85/hr</span>
-											<span class="subhead-xs d-block"></span>
-										</h4>
-									</div>
-								</div>
-								<div class="six-columns d-flex flex-align-center">
-									<div class="width-100perc padding-top-bottom-50">
-										<!-- list start -->
-										<ul class="list list_center subhead-xxs text-color-b0b0b0 margin-left-right-20">
-											<li class="list__item check red">Asset Management</li>
-											<li class="list__item check red">Initial Cut</li>
-											<li class="list__item check red">Sound Design</li>
-											<li class="list__item check red">Motion Graphics</li>
-											<li class="list__item check red">Color Correction</li>
-										</ul><!-- list end -->
-									</div>
-								</div>
-								<div class="three-columns d-flex flex-center-center">
-									<div class="price-btn-offset text-center">
-										<a href="#" class="skew-btn js-pointer-large">
-										</a>
-									</div>
-								</div>
-							</div>
-						</div><!-- price end -->
-					</div><!-- container end -->
-				</div><!-- pos-rel end -->
-			</section><!-- pricing end -->
-		</main><!-- main end -->
+          <!-- flex-container start -->
+          <div class="flex-container flex-justify-center padding-top-30">
+            <!-- column start -->
+            <div class="four-columns column-50-100 padding-top-60 footer-email">
+              <div class="column-l-r-margin-10">
+                <div class="headline-xxxxs"></div>
+                <div class="margin-top-10">
+                  <a
+                    href="#"
+                    class="subhead-xxs text-color-b0b0b0 text-hover-to-white js-pointer-small"
+                  ></a
+                  ><br />
+                  <a
+                    href="#"
+                    class="subhead-xxs text-color-b0b0b0 text-hover-to-white js-pointer-small"
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <!-- column end -->
+            <!-- column start -->
+            <div
+              class="four-columns column-50-100 padding-top-60 footer-address"
+            >
+              <div class="column-l-r-margin-10">
+                <div class="headline-xxxxs"></div>
+                <div class="margin-top-10">
+                  <a
+                    href="#"
+                    class="subhead-xxs text-color-b0b0b0 text-hover-to-white js-pointer-small"
+                  >
+                    <br />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- column end -->
+            <!-- column start -->
+            <div class="four-columns column-50-100 padding-top-60 footer-phone">
+              <div class="column-l-r-margin-10">
+                <div class="headline-xxxxs">Email</div>
+                <div class="margin-top-10">
+                  <a
+                    href="mailto:scott@treetopmedia.net"
+                    class="subhead-xxs text-color-b0b0b0 text-hover-to-white js-pointer-small"
+                    >scott@treetopmedia.net</a
+                  ><br />
+                </div>
+                <br />
+                <div class="headline-xxxxs">Phone</div>
+                <div class="margin-top-10">
+                  <a
+                    href="#"
+                    class="subhead-xxs text-color-b0b0b0 text-hover-to-white js-pointer-small"
+                    >+1 651-895-9763</a
+                  ><br />
+                </div>
+              </div>
+            </div>
+            <!-- column end -->
+          </div>
+          <!-- flex-container end -->
+          <!-- footer-social start -->
+          <ul
+            class="footer-social-desktop-hidden list list_center padding-top-90"
+          >
+            <li class="list__item">
+              <a
+                href="https://www.facebook.com/TreeTop-Media-LLC-103860821824061"
+                class="flip-btn js-pointer-small"
+                data-text="Facebook"
+                >Facebook</a
+              >
+            </li>
+            <li class="list__item">
+              <a
+                href="https://www.instagram.com/treetop_media/"
+                class="flip-btn js-pointer-small"
+                data-text="Instagram"
+                >Instagram</a
+              >
+            </li>
+          </ul>
+          <!-- footer-social end -->
+        </div>
+        <!-- container end -->
+      </div>
+      <!-- pos-rel end -->
+    </footer>
+    <!-- footer end -->
 
-		<!-- footer start -->
-		<footer class="fixed-footer pos-rel bg-img-cover js-fixed-footer" style="background-image:url(assets/images/backgrounds/man-holding-videocamera-standing-in-studio-3379943.jpg)">
-			<!-- bg-overlay -->
-			<div class="bg-overlay-black"></div>
-			<!-- pos-rel start -->
-			<div class="pos-rel flex-min-height-100vh">
-				<!-- container start -->
-				<div class="container padding-top-bottom-120">
-					<!-- footer-logo start -->
-					<div class="footer-logo footer-logo-desktop-hidden padding-bottom-90">
-						<img class="footer-logo__img" src="assets/images/logo/logo-white.png" alt="logo">
-					</div><!-- footer-logo end -->
-
-					<!-- flex-container start -->
-					<div class="flex-container flex-align-center">
-						<!-- column start -->
-						<div class="eight-columns">
-							
-						</div><!-- column end -->
-						<!-- column start -->
-						<div class="four-columns footer-nav-mobile-padding">
-							<ul class="column-l-r-margin-10 footer-nav-list js-footer-hover-box">
-								<li>
-									<a href="homePage.html" class="footer-nav__btn js-pointer-small js-footer-hover-link">Home</a>
-								</li>
-								<li>
-									<a href="aboutUs.html" class="footer-nav__btn js-pointer-small js-footer-hover-link">About Us</a>
-								</li>
-								<li>
-									<a href="processPage.html" class="footer-nav__btn js-pointer-small js-footer-hover-link">Process</a>
-								</li>
-								<li>
-									<a href="portfolioPage.html" class="footer-nav__btn js-pointer-small js-footer-hover-link">Portfolio</a>
-								</li>
-								<li>
-									<a href="contactUs.html" class="footer-nav__btn js-pointer-small js-footer-hover-link">Contact Us</a>
-								</li>
-							</ul>
-						</div><!-- column end -->
-					</div><!-- flex-container end -->
-
-					<!-- flex-container start -->
-					<div class="flex-container flex-justify-center padding-top-30">
-						<!-- column start -->
-						<div class="four-columns column-50-100 padding-top-60 footer-email">
-							<div class="column-l-r-margin-10">
-								<div class="headline-xxxxs"></div>
-								<div class="margin-top-10">
-									<a href="#" class="subhead-xxs text-color-b0b0b0 text-hover-to-white js-pointer-small"></a><br>
-									<a href="#" class="subhead-xxs text-color-b0b0b0 text-hover-to-white js-pointer-small"></a>
-								</div>
-							</div>
-						</div><!-- column end -->
-						<!-- column start -->
-						<div class="four-columns column-50-100 padding-top-60 footer-address">
-							<div class="column-l-r-margin-10">
-								<div class="headline-xxxxs"></div>
-								<div class="margin-top-10">
-									<a href="#" class="subhead-xxs text-color-b0b0b0 text-hover-to-white js-pointer-small">
-										<br>
-										
-									</a>
-								</div>
-							</div>
-						</div><!-- column end -->
-						<!-- column start -->
-						<div class="four-columns column-50-100 padding-top-60 footer-phone">
-							<div class="column-l-r-margin-10">
-								<div class="headline-xxxxs">Email</div>
-								<div class="margin-top-10">
-									<a href="mailto:scott@treetopmedia.net" class="subhead-xxs text-color-b0b0b0 text-hover-to-white js-pointer-small">scott@treetopmedia.net</a><br>
-								</div>
-								<br>
-								<div class="headline-xxxxs">Phone</div>
-								<div class="margin-top-10">
-									<a href="#" class="subhead-xxs text-color-b0b0b0 text-hover-to-white js-pointer-small">+1 651-895-9763</a><br>
-								</div>
-							</div>
-						</div><!-- column end -->
-					</div><!-- flex-container end -->
-					<!-- footer-social start -->
-					<ul class="footer-social-desktop-hidden list list_center padding-top-90">
-						<li class="list__item">
-							<a href="https://www.facebook.com/TreeTop-Media-LLC-103860821824061" class="flip-btn js-pointer-small" data-text="Facebook">Facebook</a>
-						</li>
-						<li class="list__item">
-							<a href="https://www.instagram.com/treetop_media/" class="flip-btn js-pointer-small" data-text="Instagram">Instagram</a>
-						</li>
-					</ul><!-- footer-social end -->
-				</div><!-- container end -->
-			</div><!-- pos-rel end -->
-		</footer><!-- footer end -->
-
-		<!-- scripts -->
-		<script src="assets/js/plugins.js"></script>
-		<script src="assets/js/footer-reveal.js"></script>
-		<script src="assets/js/main.js"></script>
-		<script src="assets/js/footer-reveal_init.js"></script>
-	</body>
+    <!-- scripts -->
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/footer-reveal.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/footer-reveal_init.js"></script>
+  </body>
 </html>
