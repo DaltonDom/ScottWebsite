@@ -2065,7 +2065,7 @@ body.js-page-out .pointer {
 .js-nav-active .midnightHeader.default .header-logo__img.white,
 .dark-nav.js-nav-active .midnightHeader.black .header-logo__img.black,
 .dark-nav.js-nav-active .midnightHeader.default .header-logo__img.black {
-  opacity: 0;
+  opacity: 1;
 }
 
 .midnightHeader.default .header-logo__img.white,
@@ -2073,10 +2073,6 @@ body.js-page-out .pointer {
 .js-nav-active .midnightHeader.default .header-logo__img.black,
 .dark-nav.js-nav-active .midnightHeader.black .header-logo__img.white,
 .dark-nav.js-nav-active .midnightHeader.default .header-logo__img.white {
-  opacity: 1;
-}
-
-.midnightHeader.white {
   opacity: 0;
 }
 
@@ -2210,7 +2206,7 @@ body.js-page-out .pointer {
 .midnightHeader.default .menu-icon__box:before,
 .midnightHeader.default .menu-icon__inner:before,
 .midnightHeader.default .menu-icon__inner:after {
-  background-color: #000;
+  background-color: #fff;
 }
 
 .midnightHeader.black .menu-icon__box:before,
@@ -3236,7 +3232,7 @@ body.js-page-out .pointer {
 }
 
 .dark-nav .nav-btn__inner:before {
-  background-color: #000;
+  background-color: #fff;
 }
 
 .nav-btn:hover .nav-btn__inner:before {
@@ -5964,8 +5960,8 @@ button.mfp-close {
 .midnightHeader.default .scroll-to-btn__arrow:before,
 .dark-nav.js-nav-active .midnightHeader.default .scroll-to-btn__arrow:before,
 .dark-nav.js-nav-active .midnightHeader.black .scroll-to-btn__arrow:before {
-  border-top: 2px solid #000;
-  border-right: 2px solid #000;
+  border-top: 2px solid #fff;
+  border-right: 2px solid #fff;
 }
 
 .midnightHeader.black .scroll-to-btn__arrow:before,
@@ -5977,7 +5973,7 @@ button.mfp-close {
 .midnightHeader.default .scroll-to-btn__arrow:after,
 .dark-nav.js-nav-active .midnightHeader.default .scroll-to-btn__arrow:after,
 .dark-nav.js-nav-active .midnightHeader.black .scroll-to-btn__arrow:after {
-  background-color: #000;
+  background-color: #fff;
 }
 
 .midnightHeader.black .scroll-to-btn__arrow:after,
