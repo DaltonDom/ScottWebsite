@@ -2076,6 +2076,10 @@ body.js-page-out .pointer {
   opacity: 1;
 }
 
+.midnightHeader.white {
+  opacity: 0;
+}
+
 /* Vertical logo */
 .header-logo.vertical {
   width: 20px;
@@ -12021,6 +12025,18 @@ body {
   color: #000;
 }
 
+.body-homepage {
+  background-color: #fff;
+  color: #000;
+}
+
+.text-color-black {
+  color: #000
+}
+
+.text-color-white {
+  color: #fff
+}
 /* 32.1. Background colors
    ========================================================================== */
 
